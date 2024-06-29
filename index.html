@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Competible" content="IE-edge">
+      <meta name="viewport" content="width=device-width,intial-scale=1.0">
+      <title>My Portfolio</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    </head>
+    <body>
+      <div id="main">
+      <div id="header">
+          <div class="container">
+            <nav>
+             <img src="logo2.png" class="logo">
+             <ul>
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+             </ul>
+            </nav>
+            <div class="header-text">
+             <p>Frontend Developer</p>
+             <h1>Hi, I'm <span>Maneesh</span> Jangir <br>From India
+             </h1>
+            </div> 
+          </div>
+      </div>
+      <!---- -----about----->
+
+
+      <div id="about">
+        <div class="container">
+           <div class="row">
+            <div class="about-col-1">
+              <img src="user.png">
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+               <p>Hey there! I'm Maneesh Jangir, a frontend developer with a passion for crafting engaging user experiences and bringing designs to life with code. I specialize in translating creative concepts into intuitive, responsive, and visually stunning interfaces that captivate users and drive engagement.With a solid foundation in HTML, CSS, and JavaScript.In addition to my technical skills, I am passionate about staying abreast of emerging trends and best practices in frontend development. I love exploring new tools and techniques to enhance performance, accessibility, and usability.</p>              
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                  <li><span>Web Development</span><br>Web App Development</li>
+                  <li><span>App Development</span><br>Building Android/ios apps</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>Fresher</span><br>Work Experience</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2025</span><br>MCA from Parul University.</li>
+                  <li><span>2023</span><br>BSC from MDSU Ajmer.</li>
+                </ul>
+              </div>
+            </div>
+           </div>
+        </div>
+      </div>
+      <!------services--------->
+      <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+            <div>
+              <h2>Web Design</h2>
+              <p>Crafting bespoke websites tailored to your unique brand identity and objectives, utilizing the latest web technologies to ensure optimal performance and user engagement.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <h2>UI?UX Design</h2>
+              <p>Crafting visually stunning and pixel-perfect user interfaces that align with your brand identity, incorporating intuitive layouts, typography, colors, and interactive elements to enhance usability and create memorable experiences.</p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <h2>App Design</h2>
+             <p>Optimizing app store listings with keyword research, compelling descriptions, and engaging visuals to improve app visibility, attract more downloads, and maximize user acquisition.</p>
+              <a href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------portfolio------>
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="work-1.png" alt="">
+              <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connects you yo the talented people around the world.
+                  Download it from play store.
+                </p>
+                <a href="#"></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="work-2.png" alt="">
+              <div class="layer">
+                <h3>Music App</h3>
+                <p>The app connects you yo the talented people around the world.
+                  Download it from play store.
+                </p>
+                <a href="#"></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="work-3.png" alt="">
+              <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>The app connects you yo the talented people around the world.
+                  Download it from play store.
+                </p>
+                <a href="#"></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <!-------contact--------->
+      <div id="contact">
+        <div class="container">
+         <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-brands fa-telegram"></i>jangirmaneesh1@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9602674979</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="" class="btn btn2">Download Cv</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+             <input type="text" name="Name" placeholder="Your Name" required>
+             <input type="text" name="email" placeholder="Your Email" required>
+             <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+             <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+         </div>
+        </div>
+      </div>
+      </div>
+   <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+      }
+   </script>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzvz7_WR-KW3o7WUQx6TTCNY5KG5P92LVdu_cPYH9IXOUovZ-Y_1VJdprNxsM6E6lnDVQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+              msg.innerHTML = "Message sent successfully"
+              setTimeout(function(){
+                msg.innerHTML = ""
+              },5000)
+              form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html>
+ 
